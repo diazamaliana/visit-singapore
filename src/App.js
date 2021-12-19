@@ -3,7 +3,6 @@ import Layout from './components/layout';
 import Maps from "components/maps";
 import { markers } from 'data/markers';
 
-
 function App() {
   return (
     <div className="App">
