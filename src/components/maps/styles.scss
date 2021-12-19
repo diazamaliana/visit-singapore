@@ -1,0 +1,28 @@
+@import 'src/styles/main.scss';
+
+.markers  {
+ color: $dark-2;
+}
+
+.label {
+    background-color: $dark;
+    padding: 0.75rem;
+    border-radius: 1.5rem;
+}
+
+.gm-style .gm-style-iw.gm-style-iw-c {
+    box-shadow: none;
+    padding: 0 1rem;
+    border-radius: 1.5rem 0 0 1.5rem;
+    overflow: hidden;
+    background-color: $green;
+    top: 69px;
+}
+
+.gm-style .gm-style-iw.gm-style-iw-c .gm-style-iw-d {
+    overflow: hidden !important;
+}
+
+.gm-style .gm-style-iw-t::after {
+    display: none;
+}
