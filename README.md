@@ -26,12 +26,6 @@ You’ll need to have Node >= 10.16, npm >= 6+ or yarn >= 0.25+
          └──  styles
     └── README.md
 
-* **src**
-    * **assets**
-        * **icons** 
-    * **components**
-    * **data**
-    * **styles**
 ### Installation
 - Get Google API Key at [here](https://console.cloud.google.com/apis/credentials/key)
 - Clone the repo 
