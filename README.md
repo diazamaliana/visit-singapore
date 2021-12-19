@@ -17,6 +17,15 @@ You’ll need to have Node >= 10.16, npm >= 6+ or yarn >= 0.25+
 ```
 ## Folders Structure
 
+    ├── shoots                  # Documentation files (alternatively `doc`)
+    ├── src                     # Source files 
+         ├──  assets            
+                └── icons
+         ├──  components        
+         ├──  data               
+         └──  styles
+    └── README.md
+
 * **src**
     * **assets**
         * **icons** 
