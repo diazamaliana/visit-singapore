@@ -1,7 +1,8 @@
 # Visit Singapore Web 
 ![Screenshoots](shoots\shoots_1.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [React-Google-Maps-Api](https://react-google-maps-api-docs.netlify.app/) for loading the map. 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and 
+[React-Google-Maps-Api](https://react-google-maps-api-docs.netlify.app/) for loading the map.
 
 ## Main Features
 - All the pin ​ in the map can be clicked ​ and show different ​ description about the place.
@@ -14,7 +15,6 @@ You’ll need to have Node >= 10.16, npm >= 6+ or yarn >= 0.25+
 ```bash 
    npm install npm@latest -g
 ```
-
 ## Folders Structure
 
 * **src**
