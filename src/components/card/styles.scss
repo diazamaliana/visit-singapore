@@ -1,0 +1,79 @@
+@import 'src/styles/main.scss';
+
+.card {
+    background: $dark;
+    position: fixed;
+    top: 10%;
+    bottom: 0;
+    right: 0;
+    left: 80%;
+    height: 90%;
+    display: flex;
+    transition: ease-in;
+    color: $secondary-3;
+
+    &__container {
+        
+        &-image {
+            display: flex;
+
+            img {
+                width: 100%;
+            }
+        }
+         &-name {
+             padding: 0.5rem 1.25rem;
+             text-align: left;
+             background-color: $cyan;
+             font-size: $text-base;
+             color: $secondary-2;
+         }
+
+         &-desc {
+            padding: 1rem 1.25rem;
+            text-align: justify;
+            font-size: $text-sm;
+            line-height: 1.2;
+        }
+
+        &-pin {
+            padding: 0.25rem 1rem;
+            font-size: $text-xs;
+            text-decoration: none;
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            color: $secondary-3;
+
+            img {
+              margin-right: 0.5rem;
+              width: 16px;
+            }
+
+        }
+
+        &-link {
+            padding: 0.25rem 1rem;
+            font-size: $text-xs;
+            text-decoration: none;
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            color: $secondary-3;
+
+            img {
+              margin-right: 0.5rem;
+              filter: invert(40%) sepia(53%) saturate(635%) hue-rotate(35deg) brightness(100%) contrast(84%);
+              width: 16px;
+            }
+
+            span {
+                text-align: left;
+            }
+
+        }
+    }
+    
+}
