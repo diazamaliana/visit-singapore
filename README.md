@@ -1,5 +1,5 @@
 # Visit Singapore Web 
-![Screenshoots](shoots\shoots_1.png)
+![Screenshoots](shoots/shoots_1.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and 
 [React-Google-Maps-Api](https://react-google-maps-api-docs.netlify.app/) for loading the map.
