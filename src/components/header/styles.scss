@@ -1,0 +1,32 @@
+@import 'src/styles/main.scss';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-color: $secondary-2;
+    position: fixed;
+    top: 0;
+    width: 74%;
+    height: 10%;
+    padding: 2rem;
+    // z-index: 999;
+
+    h1 {
+        font-size: $text-lg;
+        font-weight: $font-bold;
+        color: $primary-2;
+    }
+
+    &__cta img {
+        display: block;
+        float: left;
+        width: 24px;
+        margin: 0 0.5rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
