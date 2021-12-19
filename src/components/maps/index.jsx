@@ -25,6 +25,8 @@ const Maps = ({data}) => {
   };
 
   return (
+    // Line 30-68 referenced from react-google-maps-api documentation
+    // https://react-google-maps-api-docs.netlify.app/
     <LoadScript googleMapsApiKey={GOOGLE_API}>
         <GoogleMap
             zoom={15}
@@ -65,7 +67,6 @@ const Maps = ({data}) => {
         </GoogleMap>
     </LoadScript>
   );
-
 }
 
 export default Maps;
